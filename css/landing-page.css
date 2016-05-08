@@ -118,6 +118,15 @@ h6 {
     height: 900px;
 }
 
+.content-us-section {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+    background: url(../img/coffee-smartphone-desk-pen.jpg) no-repeat center center;
+    background-size: cover;
+    height: 900px;
+}
 .section-heading {
     margin-bottom: 30px;
 }
