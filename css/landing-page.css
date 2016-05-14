@@ -85,7 +85,9 @@ h6 {
         width: 100%;
     }
 }
-
+.section-container {
+    padding: 150px 0 50px;
+}
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -98,8 +100,6 @@ h6 {
 }
 
 .content-section-a {
-    padding-top: 150px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     color: black;
     background: url(../img/BG2_1.jpg) no-repeat center center;
@@ -109,8 +109,6 @@ h6 {
 
 
 .content-section-b {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     color: white;
     background: url(../img/BG3_With_Images.jpg) no-repeat center center;
@@ -119,8 +117,6 @@ h6 {
 }
 
 .content-us-section {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     color: white;
     background: url(../img/coffee-smartphone-desk-pen.jpg) no-repeat center center;
@@ -200,3 +196,31 @@ p.copyright {
 .menu {
     padding-top: 25px;
 }
+
+.contact-us-logo-img {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.contact-us-form {
+    padding: 50px 40px 15px 40px;
+    box-shadow: 2px 2px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.cotact-us-form-title{
+    margin-bottom: 30px;
+}
+
+.cotact-us-form-description{
+    margin-bottom: 10px;
+}
+
+.cotact-us-form-button {
+    width: 60%;
+    background-color: gray;
+    color: white;
+}
+
