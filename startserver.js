@@ -18,6 +18,7 @@ app.get('/', function (req, res) {
 app.post('/contact', function (req, res) {
     var email = req.body.email;
     fs.appendFile(MAIL_FILE,email+',', function(){});
+    res.redirect("index.html?sent=true");
 });
 
 app.listen(3000, function () {
