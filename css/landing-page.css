@@ -234,5 +234,9 @@ p.copyright {
 
 .logo-container {
     position: absolute;
-    bottom: 20px;
+    bottom: 30%;
+}
+
+.solution-paragraph-container {
+    margin-bottom: 30px;
 }
