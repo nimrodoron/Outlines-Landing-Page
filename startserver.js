@@ -16,7 +16,6 @@ app.get('/', function (req, res) {
 });
 
 app.post('/contact', function (req, res) {
-
     var email = req.body.email;
     fs.appendFile(MAIL_FILE,email+',', function(){});
 });
