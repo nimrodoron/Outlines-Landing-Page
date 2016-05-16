@@ -36,7 +36,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/BG1.jpg) no-repeat center center;
+    background: url(../img/BG1_Low.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,7 +102,7 @@ h6 {
 .content-section-a {
     text-align: center;
     color: black;
-    background: url(../img/BG2_1.jpg) no-repeat center center;
+    background: url(../img/BG2_1_low.jpg) no-repeat center center;
     background-size: cover;
     height: 900px;
 }
@@ -111,7 +111,7 @@ h6 {
 .content-section-b {
     text-align: center;
     color: white;
-    background: url(../img/BG3_With_Images.jpg) no-repeat center center;
+    background: url(../img/BG3_1_low.jpg) no-repeat center center;
     background-size: cover;
     height: 900px;
 }
