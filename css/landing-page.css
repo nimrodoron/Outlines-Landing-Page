@@ -12,14 +12,14 @@ html {
 }
 
 body,
+p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
 }
 
 .topnav {
@@ -65,7 +65,11 @@ h6 {
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
-
+@media(max-width:767px) {
+    .simple_acc_smart {
+        font-size: 2em;
+    }
+}
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
@@ -100,7 +104,7 @@ h6 {
 }
 
 .content-section-a {
-    text-align: center;
+    text-align: left;
     color: black;
     background: url(../img/BG2_1_low.jpg) no-repeat center center;
     background-size: cover;
@@ -109,7 +113,7 @@ h6 {
 
 
 .content-section-b {
-    text-align: center;
+    text-align: left;
     color: white;
     background: url(../img/BG3_1_low.jpg) no-repeat center center;
     background-size: cover;
@@ -203,7 +207,7 @@ p.copyright {
 }
 
 .contact-us-form {
-    padding: 50px 40px 15px 40px;
+    padding: 15px 40px 15px 40px;
     box-shadow: 2px 2px;
     color: black;
     background-color: white;
@@ -211,7 +215,6 @@ p.copyright {
 }
 
 .cotact-us-form-title{
-    margin-bottom: 30px;
 }
 
 .cotact-us-form-description{
@@ -225,7 +228,7 @@ p.copyright {
 }
 
 .about-bottom {
-    margin-top: 180px;
+    margin-top: 30px;
 }
 
 .intro-logo {
@@ -239,4 +242,10 @@ p.copyright {
 
 .solution-paragraph-container {
     margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.about-text {
+    line-height: initial;
+    font-size: 22px;
 }
